@@ -1,38 +1,38 @@
 apiVersion: v1
 entries:
   big-data-platform:
-  - annotations:
-      deployPriority: "100"
-      displayName: 数据中台上层服务
-      group: big-data-platform
-      projectParameters: |
-        k8s-ip: 'k8s-master01的内网IP，例如：172.30.1.1'
-        db-username: '数据库用户名，根据实际情况替换，例如：root'
-        db-password: '数据库密码，根据实际情况替换，例如：password'
-        db-url: 'mysql使用jdbc:mysql://数据库IP:数据库PORT/dpa?serverTimezone=GMT%2b8&characterEncoding=utf-8&useSSL=false 达梦数据库使用jdbc:dm://数据库IP:数据库PORT'
-        db-driver-class-name: 'mysql使用com.mysql.cj.jdbc.Driver 达梦数据库使用dm.jdbc.driver.DmDriver'
-        db-dialect: 'mysql使用org.hibernate.dialect.MySQL8Dialect 达梦数据库使用org.hibernate.dialect.DmMysqlDialect'
-        user-type: '用户类型：0:系统创建用户 1:第三方同步的用户'
-        user-center-url: '用户中心后台服务地址 例如: http://172.1.1.1:30818'
-        login-url: '登录地址 例如: http://172.1.1.1:30302'
-        uniauth-server-url-prefix: '融合登录配置-融合登录后端服务地址 例如: http://172.1.1.1:32315'
-        uniauth-server-login-url: '融合登录配置-融合登录的登录页面的url 例如: http://172.1.1.1:32315/login'
-        uniauth-client-host-url: '融合登录配置-客户端地址 例如: http://172.1.1.1:30003'
-        nginx-node-port: '数据中台前端端口，例如：30003'
-        argo-node-port: '数据中台前端端口，例如：30746'
-        nacos-node-port: '数据中台前端端口，例如：30000'
-    apiVersion: v2
-    appVersion: 2.4.0
-    created: "2021-10-25T16:23:06.433019+08:00"
-    description: 数据中台上层服务
-    digest: ff987bc794f3eccf982ac24b8222037b7d4fbd08cd1daa678cc7b67af0da49b1
-    home: https://www.yunlizhihui.com
-    icon: logo.svg
-    maintainers:
-    - email: zhengwei@yunlizhihui.com
-      name: 郑伟
-    name: big-data-platform
-    urls:
-    - https://zhengwei2020.github.io/charts/big-data-platform-2.4.0.tgz
-    version: 2.4.0
-generated: "2021-10-25T16:23:06.378583+08:00"
+    - annotations:
+        deployPriority: "100"
+        displayName: 数据中台上层服务
+        group: big-data-platform
+        projectParameters: |
+          k8s-ip: 'k8s-master01的内网IP，例如：172.30.1.1'
+          db-username: '数据库用户名，根据实际情况替换，例如：root'
+          db-password: '数据库密码，根据实际情况替换，例如：password'
+          db-url: 'mysql使用jdbc:mysql://数据库IP:数据库PORT/dpa?serverTimezone=GMT%2b8&characterEncoding=utf-8&useSSL=false 达梦数据库使用jdbc:dm://数据库IP:数据库PORT'
+          db-driver-class-name: 'mysql使用com.mysql.cj.jdbc.Driver 达梦数据库使用dm.jdbc.driver.DmDriver'
+          db-dialect: 'mysql使用org.hibernate.dialect.MySQL8Dialect 达梦数据库使用org.hibernate.dialect.DmMysqlDialect'
+          user-type: '用户类型：0:系统创建用户 1:第三方同步的用户'
+          user-center-url: '用户中心后台服务地址 例如: http://172.1.1.1:30818'
+          login-url: '登录地址 例如: http://172.1.1.1:30302'
+          uniauth-server-url-prefix: '融合登录配置-融合登录后端服务地址 例如: http://172.1.1.1:32315'
+          uniauth-server-login-url: '融合登录配置-融合登录的登录页面的url 例如: http://172.1.1.1:32315/login'
+          uniauth-client-host-url: '融合登录配置-客户端地址 例如: http://172.1.1.1:30003'
+          nginx-node-port: '数据中台前端端口，例如：30003'
+          argo-node-port: '数据中台前端端口，例如：30746'
+          nacos-node-port: '数据中台前端端口，例如：30000'
+      apiVersion: v2
+      appVersion: 2.4.0
+      created: "2021-10-26T09:55:19.425782+08:00"
+      description: 数据中台上层服务
+      digest: cc91d68f8f27600823bd09436fa8423db88ba7ec8fa22eb248620a06e15abb23
+      home: https://www.yunlizhihui.com
+      icon: logo.svg
+      maintainers:
+        - email: zhengwei@yunlizhihui.com
+          name: 郑伟
+      name: big-data-platform
+      urls:
+        - https://zhengwei2020.github.io/charts/big-data-platform/big-data-platform-2.4.0.tgz
+      version: 2.4.0
+generated: "2021-10-26T09:55:19.073995+08:00"
